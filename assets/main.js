@@ -11,8 +11,3 @@ menuBtn.addEventListener("click", (e) => {
         isOpen ? "ri-close-line" : "ri-menu-3-line"
     );
 });
-
-navLinks.addEventListener("click",(e) => {
-    navLinks.classList.remove("open");
-    menuBtnIcon.setAttribute("class","ri-menu-3-line");
-});
