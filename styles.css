@@ -233,3 +233,37 @@ nav {
 .service__card p{
   color: var(--text-light);
 }
+
+.customisation{
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+  url("assets/customisation.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.customisation__container{
+  text-align: center;
+}
+
+.customisation__container :is(.section__header, .section__description){
+  max-width: 750px;
+  margin: auto;
+  color: var(--white);
+}
+
+.customisation__grid{
+  margin-top: 4rem;
+  display: grid;
+  grid-area: 4rem 2rem;
+}
+
+.customisation__card h4{
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.customisation__card p{
+  color: var(--white);
+}
