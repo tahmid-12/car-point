@@ -146,3 +146,15 @@ nav {
 .nav__links a:hover{
     color: var(--primary-color);
 }
+
+.header__content{
+  max-width: 600px;
+}
+
+.header__content h1{
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 4rem;
+  color: var(--white);
+}
