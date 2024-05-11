@@ -158,3 +158,35 @@ nav {
   line-height: 4rem;
   color: var(--white);
 }
+
+.banner__container{
+  display: grid;
+  grid-auto-rows: minmax(0, 350px);
+}
+
+.banner__card{
+  padding: 5rem 2rem;
+  display: grid;
+  place-content: center;
+}
+
+.banner__card:nth-child(1){
+  background-color: var(--secondary-color);
+}
+
+.banner__card:nth-child(2){
+  background-color: var(--secondary-color-dark);
+}
+
+.banner__card h4{
+  max-width: 300px;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.banner__image img{
+  height: 100%;
+  object-fit: cover;
+}
