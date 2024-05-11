@@ -32,3 +32,9 @@ ScrollReveal().reveal(".header__btn", {
     ...scrollRevealOptions,
     delay: 500
 });
+
+//Service Container
+ScrollReveal().reveal(".service__card",{
+    ...scrollRevealOptions,
+    interval: 500,
+});
