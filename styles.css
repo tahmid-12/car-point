@@ -343,3 +343,31 @@ nav {
   margin-top: 1rem;
   min-width: 150px;
 }
+
+.contact{
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url("assets/contact.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contact__container :is(.section__header, .section__description){
+  color: var(--white);
+}
+
+.contact__btns{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact__btns .btn:nth-child(1){
+  background-color: transparent;
+  border: 2px solid var(--white);
+}
+
+.contact__btns btn:nth-child(2){
+  color: var(--primary-color);
+  background-color: var(--white);
+  border: 2px solid var(--white);
+}
